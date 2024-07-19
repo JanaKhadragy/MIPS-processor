@@ -1,0 +1,45 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Student-1/JanaKhadragy211000240/mips211000240_isim_beh.exe -prj C:/Users/Student-1/JanaKhadragy211000240/mips211000240_beh.prj work.mips211000240 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/SignExtend211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/ShiftLeft211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/RegisterFile211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/PC211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/MUX21_211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/mux211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/InstructionMemory211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/DataMremory211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/Control211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/ALU32_211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/ALU211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/Adder211000240.vhd" into library work
+Parsing VHDL file "C:/Users/Student-1/JanaKhadragy211000240/mips211000240.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity pCount [pcount_default]
+Compiling architecture behavioral of entity instructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity mux_5bit [mux_5bit_default]
+Compiling architecture behavioral of entity Reg_File [reg_file_default]
+Compiling architecture behavioral of entity Data_memory [data_memory_default]
+Compiling architecture behavioral of entity Cont_unit [cont_unit_default]
+Compiling architecture behavioral of entity alu_32 [alu_32_default]
+Compiling architecture behavioral of entity alu_cont [alu_cont_default]
+Compiling architecture behavioral of entity mux_32 [mux_32_default]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity signExtender [signextender_default]
+Compiling architecture behavioral of entity sheftLeft [sheftleft_default]
+Compiling architecture behavioral of entity mips211000240
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\mips211000240_isim_beh.exe.sim\libPortability.dll".
+Compiled 30 VHDL Units
+Built simulation executable C:/Users/Student-1/JanaKhadragy211000240/mips211000240_isim_beh.exe
+Fuse Memory Usage: 38288 KB
+Fuse CPU Usage: 703 ms
